@@ -35,7 +35,7 @@
             <a href="novedades.html">Ver novedades</a>
             <a href="sobre-nosotros.html">Sobre nosotros</a>
             <a href="ofertas.html">ofertas</a>
-            <a href="shop.html"><img src="\img\buy.png" class="shop"></a>
+            <a href="shop.html" class="shop"><img src="../img/buy.png" ></a>
     
         </div>
     
@@ -43,30 +43,50 @@
 </header>
 
 
+<main>
 
-    
+    <article>
+
+        <section>
+
 <ul class="formulario">
+
     <h2>completa el formulario y nos comunicaremos contigo</h2>
+
     <form action="enviar.php" method="post" enctype="text/plain">
+
         <label for="nombre">nombre:</label>
         <input type="text" name="nombre"placeholder="escribi tu nombre" required></input>
+
         <br>
         <br>
+
         <label for="apellido">apellido:</label>
         <input type="text" name="apellido"placeholder="escribi tu apellido" required></input>
+
         <br>
         <br>
+
         <label for="email">email</label>
+
         <input type="email"placeholder="algo@gmail.com" required>
+
         <br>
         <br>
+
         <label name="Comentario">Tu asunto:</label>
         <br>
+
         <textarea name="Comentario" id="" cols="50" rows="17" placeholder="cuentanos tu problema" required></textarea>
         <input type="submit" value="enviar">
+        
     </form>
 
 </ul>
+        </section>  
+    </article>  
+</main>
+
 <footer>
 
     <div class="copyright">
